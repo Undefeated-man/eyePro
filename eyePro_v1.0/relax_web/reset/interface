@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>该休息辣！！</title>
+		<link href='../v.css' type='text/css' rel='stylesheet' />
+	</head>
+	<body>
+		<div class="page"  style="width:90%">
+			<h1>啦啦啦！~~(^_^)~~<br />该让你的眼睛和大脑放放假辣！</h1>
+			<img src='../rabit.jpg'><br />
+		</div>
+		<hr /><br />
+		<div id='end_page'>
+			<div id='box' style="width:auto; margin-top:5px; margin-left:10%;">
+				<h3 class='down'>跟你说个有趣的事哈！</h3>
+			</div>
+			<h3>emmmm……<br /><img src='../thinking.jpg'><br /><br />突然忘了，起来走走、散散步吧~<br />没准等会儿我就想起来了<img id='tng' src='../tongue.jpg' align='right' style='margin:5px;'>
+			<br />回头想起来了跟你说哈！<br /></h3>
+		</div>
+		<div class='page'  style="width:40%; font-size:80%; margin-right:auto;">
+			<h3 class='up'>这是一首歌，<br />如果你不是静音的话应该听得到~<br /></h3>
+			<h5><a href="..\\link\\how2fixUp.html">还是听不到？点我！</a></h5>
+			<h3># 《喜帖街.mp3 》 #</h3>
+		</div>
+		<div id='box' style='padding:50px;padding-top:70px;height:180px;'>
+			<form action='../link/typehappy.html'>
+				<fieldset id='upfield'>
+					<legend>Here's the song for you!</LEGEND>
+					<label for='happy'>歌好听吗:</label>
+					<br />
+					<input  id='yes' type='radio' name='laugh' value='y' required='required'>
+					<label class='choice' for='yes'>好听！</label><br/>
+					<input id='no' type='radio' name='laugh' value='n' disabled='disabled'>
+					<label class='choice' for='no' >不好(哈哈！就不给你选)</label>
+					
+					<br /><br />
+					<input id='button' type='submit' value='这还差不多' />
+				</fieldset>
+			</form>
+		</div>		
+		<div class='page' style='height:80px; padding:50px; padding-top:20px; margin-right:1%; margin-left:1%;'>
+			<form action='../typehappy.html'>
+				<fieldset>
+					<legend id='drop'>| 敬请期待 |<br />| 小水滴的更新 |</LEGEND>
+					<label id='new' for='function'>自动爬取笑话、<br/>个性化ddl提示等。。。</label>
+					<br />
+				</fieldset>
+			</form>
+		</div>
+		<div id="sign">
+			<h3 class='end'>By 一只 快乐小精灵</h3><br />
+		</div>
+	</body>
+</html>

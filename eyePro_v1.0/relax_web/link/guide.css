@@ -1,0 +1,96 @@
+strong{
+	color:#CD5C5C;
+}
+h3{
+	color:#191970; 
+	margin-left:50px; 
+	margin-right:50px;
+}
+h3:hover{
+	font-weight:bold;
+}
+.page{
+	border-style:solid;
+	background-color:rgba(255,255,255,0.9);
+	border-radius:50px;
+	padding:10px;
+	margin:20px;
+	-webkit-transition: all 1.5s ease;
+			transition: all 1.5s ease;
+}
+.choice{
+	padding:2px;
+}
+div.choice:hover{
+	background-color:#FAEBD7;
+}
+#content{
+	border-style:solid;
+	border-radius:50px;
+	font-weight:bold;
+	text-align:center;
+	position: fixed;
+	right:80px;
+	line-height:50px;
+	padding:10px;
+	top:50px;
+	height:50px;
+	width:50px;
+	background-color:rgba(240,255,255,0.7);
+	z-index:9999;
+	float:right;
+}
+#nav{
+	display:none;
+	width: 100px;
+}
+#content:hover{
+	background-color:rgba(210,255,255,0.9);
+}
+#content:hover ul{
+	border-style:none;
+	border-radius:10px;
+	background-color:rgba(250,235,215,0.9);
+	position: absolute;
+    display: block;
+    margin-left: -1px;
+    top: 34px;
+    left: 1px;
+    z-index: 9;
+    padding : 9px 15px 10px 15px;
+}
+.nav:hover{
+	background-color:rgba(230,215,200,0.9);
+}
+a{
+	text-decoration: none;
+}
+
+@-webkit-keyframes Glow {
+    from {
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #fff,
+                     0 0 40px #00a67c,
+                     0 0 70px #00a67c,
+                     0 0 80px #00a67c,
+                     0 0 100px #00a67c,
+                     0 0 150px #00a67c;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #fff,
+                     0 0 20px #00a67c,
+                     0 0 35px #00a67c,
+                     0 0 40px #00a67c,
+                     0 0 50px #00a67c,
+                     0 0 75px #00a67c;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+body {
+	font-family:Comic Sans MS;
+	font-size:100%;
+	background:url('./bg-img/b.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	
+}
+.page{
+	background-color:rgba(255,255,255,0.7);
+	border-radius:50px;
+	padding:20px;
+	margin:3%;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+	-webkit-transition: all 1.5s ease;
+			transition: all 1.5s ease;
+}
+#end_page{
+	background-color:rgba(255,255,255,0.7);
+	border-radius:50px;
+	padding:20px;
+	margin:3%;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+	-webkit-transition: all 1.5s ease;
+			transition: all 1.5s ease;
+}
+#transparent{
+	background-color:rgba(255,255,255,0.3);
+}
+#upfield{
+	color:#E0FFFF;
+}
+#box{
+	background-color:rgba(0,0,0,0.2);
+	border-radius:50px;
+	padding:20px;
+	margin:3%;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+	-webkit-transition: all 1.5s ease;
+			transition: all 1.5s ease;
+}
+h1 {
+	text-align:center;
+	color:darkgreen;
+	-webkit-transition: all 1.5s ease;
+            transition: all 1.5s ease;
+}
+h1:hover{
+	-webkit-animation: Glow 1.5s ease infinite alternate;
+            animation: Glow 1.5s ease infinite alternate;
+}
+h3.up {
+	text-align:center;
+	color:darkblue;
+}
+.end {
+	text-align:right;
+	color:white;
+}
+.down{
+	color:white;
+}
+.choice:hover{
+	font-size:120%;
+	font-weight:bold;
+}
+#drop{
+	color:darkblue;
+	-webkit-transition: all 1.5s ease;
+            transition: all 1.5s ease;
+}
+#new{
+
+	font-size:100%;
+	-webkit-transition: all 1.5s ease;
+            transition: all 1.5s ease;
+}
+#new:hover{
+	-webkit-animation: Glow 1.5s ease infinite alternate;
+            animation: Glow 1.5s ease infinite alternate;
+}
+#button{
+	border-radius:5px;
+	border-style:none;
+	width:100px;
+	height:30px;
+}
+#button:hover{
+	color:#00008B;
+	font-weight:bold;
+	background-color:#FFF8DC;
+}
+#sign{
+	padding:10px;
+	margin:30px;
+	float:right;
+	bottom:0px;
+}
+
+@-webkit-keyframes Glow {
+    from {
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #fff,
+                     0 0 40px #00a67c,
+                     0 0 70px #00a67c,
+                     0 0 80px #00a67c,
+                     0 0 100px #00a67c,
+                     0 0 150px #00a67c;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #fff,
+                     0 0 20px #00a67c,
+                     0 0 35px #00a67c,
+                     0 0 40px #00a67c,
+                     0 0 50px #00a67c,
+                     0 0 75px #00a67c;
+    }
+}
+@keyframes Glow {
+    from {
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #fff,
+                     0 0 40px #00a67c,
+                     0 0 70px #00a67c,
+                     0 0 80px #00a67c,
+                     0 0 100px #00a67c,
+                     0 0 150px #00a67c;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #fff,
+                     0 0 20px #00a67c,
+                     0 0 35px #00a67c,
+                     0 0 40px #00a67c,
+                     0 0 50px #00a67c,
+                     0 0 75px #00a67c;
+    }
+}
